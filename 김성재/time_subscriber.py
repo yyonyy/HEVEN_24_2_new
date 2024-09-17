@@ -16,4 +16,7 @@ class Time:
         rospy.loginfo(self.clock)
 
 if __name__ == '__main__':
-    time_subscriber = Time()
+    try:
+        Time()
+    except rospy.ROSInterruptException:
+        pass
