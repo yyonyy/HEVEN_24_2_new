@@ -3,7 +3,7 @@ from collections import Counter
 
 class Dicegame:
     def __init__(self, N):
-        
+        111
         if 10 < N < 50:
             self.N = N
         else:
