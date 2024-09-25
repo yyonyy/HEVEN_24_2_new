@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen" />
+    
+    <node pkg="tutorial" type="newturtle3.py" name="turtlebot_controller" output="screen" />
+    
+    <node pkg="tutorial" type="path_turtle.py" name="path_publisher" output="screen" />
+</launch>
